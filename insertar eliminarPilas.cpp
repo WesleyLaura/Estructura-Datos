@@ -19,7 +19,6 @@ int main(){
 		cin>>it;
 	}
 	insertarPila(pila,it);
-	
 	cout<<"\nSacando los elementos de la pila: ";
 	while(pila != NULL){  // mientras no sea final de la pila
 		sacarPila(pila,it);
